@@ -11,7 +11,7 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/ahmad-olagunju/" className="footer-icon"><LinkedInIcon/></a>
                 <a href="https://github.com/AhmadOlagunju" className="footer-icon"><GitHubIcon/></a>
             </div>
-            <p className='footer-copyright'>Copyright &#169; 2023  All rights reserved</p>
+            <p className='footer-copyright'>Copyright &#169; 2023  All rights reserved.</p>
         </div>
     )
 }
