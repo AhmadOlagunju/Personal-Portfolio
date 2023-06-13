@@ -11,12 +11,12 @@ function About() {
         <div className='about-sections'>
           <h2 className="about-subtitle">I'm Ahmad</h2>
           <p className="about-text">
-            I am currently pursuing a computer science major at the University of Alberta, immersing myself 
+            I am currently pursuing a Computer Science major at the University of Alberta, immersing myself 
             in the ever-evolving world of technology and innovation. With a solid foundation in Python, C++, 
             and Java, I am eager to use my knowledge and skills to shape the future of technology. 
             Driven by a profound fascination with both software development and artificial intelligence, I am
             constantly seeking opportunities to explore and contribute to these dynamic fields of study.
-              </p>
+                    </p>
             <br></br>
           <p><b>Languages and tools known:</b> </p>
           <p>
