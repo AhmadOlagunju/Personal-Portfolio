@@ -16,7 +16,7 @@ function About() {
             and Java, I am eager to use my knowledge and skills to shape the future of technology. 
             Driven by a profound fascination with both software development and artificial intelligence, I am
             constantly seeking opportunities to explore and contribute to these dynamic fields of study.
-                    </p>
+              </p>
             <br></br>
           <p><b>Languages and tools known:</b> </p>
           <p>
