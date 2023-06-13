@@ -1,0 +1,22 @@
+
+.projects {
+    
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    justify-content: left;
+    margin-left: 15%;
+    margin-right: auto;
+
+}
+.projects-label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.projects-container{
+    display: flex;
+    justify-content:space-between;
+}
+
+
