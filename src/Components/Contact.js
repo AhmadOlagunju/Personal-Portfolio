@@ -37,7 +37,7 @@ function Contact() {
             </div>
             <div className='mail-info'>
                 <p className="info-label">Email </p>
-                <p> ahmadolagunju17@gmail.com</p>
+                <p> ahmad.olagunju17@gmail.com</p>
             </div>
         </div>
     )
