@@ -15,7 +15,7 @@ function Projects() {
                   title="Personal Portolio"
                   description="Created with the power of React, this website showcases my skills and experience in an engaging and interactive manner. It also provides a clean interface equipped with dark mode and routing."
                   buttonText="Source Code"
-                  link="https://github.com/AhmadOlagunju/RogueLikeProject"
+                  link="https://github.com/AhmadOlagunju/Personal-Portfolio"
                    
                    
                 />
