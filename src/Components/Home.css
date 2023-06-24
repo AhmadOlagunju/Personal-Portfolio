@@ -65,6 +65,7 @@
 
 .header-bar-gif{
   content:url(/public/assets/headerGif.gif);
+  max-width: 100%;
 }
 .home-title span {
   color: #e04f62;
@@ -113,6 +114,7 @@
   .home-title {
     font-size: 2rem!important;
   }
+
 }
 
 
