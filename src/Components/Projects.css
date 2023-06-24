@@ -2,6 +2,7 @@
 .projects {
     
     margin-top: 1rem;
+    padding-top: 5rem;
     margin-bottom: 2rem;
     text-align: center;
     justify-content: left;
@@ -16,7 +17,15 @@
 }
 .projects-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content:space-between;
 }
-
+/* Desktop View */
+@media screen and (min-width: 768px) {
+    .projects-container{
+        flex-direction: row;
+        
+    }
+}
 

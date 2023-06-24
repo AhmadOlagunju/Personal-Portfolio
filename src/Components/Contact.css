@@ -1,70 +1,63 @@
 .contact{
     margin-top: 60px;
     padding-top: 2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 6rem;
+    max-width: 107rem;
+    margin: auto;
+    padding: 0 15%;
+    padding-right: 0;
+    justify-content: center;
+}
+
+.contact-box {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-box span{
+    border-radius: 50%;
+    box-shadow: 0 0 8px #999;
+    padding: 1.7rem;
+    color: #2563eb;
+}
+
+.contact-box span i {
+    font-size: 1.7rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+p, h3{
+    margin: 0;
+}
 
 .contact-title{
     color: #0E2431;
     margin-top: 30px;
-    text-align: left;
     justify-content: center;
     font-size: 1.5rem;
     margin-left: 15%;
     margin-right: 0%;
     font-weight: 600;
 }
+
 .contact-info{
     font-size: 1rem;
-    margin-bottom: 5%;
+    margin-bottom: 5rem;
     margin-left: 15%;
 }
-.loc-icon{
-    margin-left: 15%;
-    margin-right:2%;
-    float:left;
-}
-.mail-icon{
-    margin-left: 15%;
-    margin-right:2%;
-    float:left;
-}
-.fa-map-location-dot{
-    box-shadow: 0 0 5px #888;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 80px;
-    vertical-align: middle;
-    color: #03711e;
-}
-.fa-solid{
-    box-shadow: 0 0 5px #888;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 80px;
-    vertical-align: middle;
-    color: #0e0f57;
-    
-}
-p{
-    margin:0;
-}
-.loc-info{
 
-    width: 20%;
-    float:left;
-}
-.mail-info{
-    float:left;
-}
-.info-label{
-    font-weight: bold;
-}
 input[type=text],textarea {
     width: 100%;
     min-width: 200px;
@@ -111,14 +104,19 @@ label{
     font-size: 25px;
 }
 
-@media screen and (max-width:768px) {
-    .contact-container{
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-        margin-right: 10px;
+@media screen and (min-width:800px) {
+    .contact-title{
+        text-align: left;
     }
-    .contact-image{
-        width: 350px;
+    .container {
+        gap: 8rem;
+        justify-content: left;
+    }
+    .contact{
+        padding-bottom: 8rem;
+    }
+    .contact-box {
+        flex-direction: row;
+        text-align: left;
     }
 }

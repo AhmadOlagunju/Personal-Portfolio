@@ -24,21 +24,29 @@ function Contact() {
         <div className='contact' id='contact'>
             <h2 className='contact-title'>Contact Me</h2>
             <h2 className='contact-info'> Reach out! I Want To Hear From You</h2>
-            <div className='loc-icon'>
-                <i className="fa fa-map-location-dot fa-2xl"></i>
-            </div>
-            <div className='loc-info'>
-                <p className="info-label">Location </p>
-                <p>Alberta, Canada </p>
+            <div className='container'>
+                <div className='contact-box'>
+                    <span>
+                        <i className="fa-solid fa-map-location-dot"></i>
+                    </span>
+                    <div className='info'>
+                        <h3> Location </h3>
+                        <p>Alberta, Canada </p>
+                    </div>
+                </div>
+                <div className='contact-box'>
+                
+                    <span>
+                        <i className="fa-solid fa-envelope"></i>
+                    </span>
+                    <div className='info'>
+                        <h3> Email </h3>
+                        <p> ahmad.olagunju1@gmail.com </p>
+            
+                    </div>
+                </div>
             </div>
             
-            <div className='mail-icon'>
-                <i className="fa-solid fa-envelope fa-2xl"></i>
-            </div>
-            <div className='mail-info'>
-                <p className="info-label">Email </p>
-                <p> ahmad.olagunju1@gmail.com</p>
-            </div>
         </div>
     )
 }

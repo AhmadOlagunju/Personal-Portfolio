@@ -10,11 +10,9 @@ function Home() {
           <img className="header-bar-gif"
             
             alt="Animated footer bars"
-            width="100%"
-            max-width="1024px"
           />
-     
       </p>
+
       <div className="home-data">
         <h1 className="home-title">
           Hey!&nbsp;&nbsp;
@@ -28,9 +26,7 @@ function Home() {
           <br />
           A Software Developer
         </h1>
-        <div className="home-img">
           <div className="box box2"></div>
-        </div>
       </div>
 
       <div className="home-social">
