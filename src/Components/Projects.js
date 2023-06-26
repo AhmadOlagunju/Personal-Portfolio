@@ -8,7 +8,7 @@ function Projects() {
     <div className='projects' id='projects'>
         <p className='projects-label'>Projects</p>
         <div className='projects-container'>
-  
+                
                 <ProjectCard 
                   imgSrc="assets/portfolioPic.png"
                   imgAlt="Portfolio Project Image"
@@ -19,6 +19,18 @@ function Projects() {
                    
                    
                 />
+
+                <ProjectCard
+                  imgSrc="assets/picar.jpg"
+                  imgAlt="Picar using Raspberry Pi"
+                  title="Picar using Raspberry Pi"
+                  description="I assembled a robotic car with an ultrasonic sensor that is able to detect and avoid obstacles using raspberry Pi and Python. I am currently working on making this car self-driving using machine learning so that it can navigate various courses."
+                  buttonText="Source Code"
+                  link="https://github.com/AhmadOlagunju/picar-tests"
+                   
+                   
+                />
+                
                 <ProjectCard
                   imgSrc="assets/rogue.png"
                   imgAlt="Roguelike Project Image"
@@ -29,16 +41,7 @@ function Projects() {
                    
                    
                 />
-                <ProjectCard
-                  imgSrc="assets/clockPic.jpeg"
-                  imgAlt="World Clock Project Image"
-                  title="World Clock Chrome Extension"
-                  description="A chrome extension that displays the time for the selected countries by accessing an API. Mostly programmed using JavaScript and HTML."
-                  buttonText="Source Code"
-                  link="https://github.com/AhmadOlagunju/World-Clock-Extension"
-                   
-                   
-                />
+              
                 <span className="stretch"></span>
   
         </div>
