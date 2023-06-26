@@ -3,6 +3,7 @@ import "./Home.css";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
+
 function Home() {
   return (
     <div className="home" id="home">
